@@ -1,0 +1,149 @@
+/Global Styles/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5; /* Light beige background */
+    font-family: 'Verdana', sans-serif;
+    color: #2d3436; /* Charcoal grey text */
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    margin: 0 auto;
+    width: 85%;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background-color: #81ecec; /* Light teal background */
+    color: #2d3436; /* Charcoal grey text */
+    padding: 15px 0;
+}
+
+header .site-logo {
+    font-size: 26px;
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header nav ul li a {
+    color: #2d3436; /* Charcoal grey text */
+    text-decoration: none;
+}
+
+/* Intro Section */
+#intro {
+    background: url('assets/new_background.jpg') no-repeat center center/cover;
+    color: #2d3436; /* Charcoal grey text */
+    padding: 90px;
+    text-align: center;
+}
+
+#intro h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+#intro p {
+    font-size: 22px;
+}
+
+.email-input {
+    padding: 14px;
+    width: 220px;
+    border-radius: 5px;
+    outline: none;
+    border: 3px solid #74b9ff; /* Sky blue border */
+}
+
+.start-button {
+    background: #74b9ff; /* Sky blue background */
+    color: #2d3436; /* Charcoal grey text */
+    padding: 12px 24px;
+    margin-top: 25px;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.start-button:hover {
+    background: #fdcb6e; /* Light orange hover background */
+}
+
+/* Features Section */
+#features {
+    padding: 50px 0;
+    background: #81ecec; /* Light teal background */
+    text-align: center;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.feature-box {
+    width: 28%;
+    background: #dfe6e9; /* Light grey background */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Reviews Section */
+#reviews {
+    padding: 50px 0;
+    text-align: center;
+    background: #dfe6e9; /* Light grey background */
+}
+
+.review {
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* Get Started Section */
+#getStarted {
+    padding: 50px 0;
+    background: #ffeaa7; /* Light yellow background */
+    color: #2d3436; /* Charcoal grey text */
+    text-align: center;
+}
+
+.join-button {
+    background: #74b9ff; /* Sky blue background */
+    color: #2d3436; /* Charcoal grey text */
+    padding: 12px 24px;
+    margin-top: 25px;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    padding: 25px 0;
+    background: #2d3436; /* Charcoal grey background */
+    color: #81ecec; /* Light teal text */
+    text-align: center;
+}
